@@ -13,3 +13,7 @@ html,body {
 .linkColor {
     color: #6f5cf1
 }
+
+a {
+    text-decoration: none !important;
+}

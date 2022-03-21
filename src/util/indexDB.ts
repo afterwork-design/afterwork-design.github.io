@@ -7,7 +7,7 @@ export const isSupportIndexDB = () => {
     return true;
 };
 
-const databaseName = "castalia";
+const databaseName = "afterwork";
 export const myCollectionTableName = "my-collection"; // 我的
 
 interface DatabaseOperation {

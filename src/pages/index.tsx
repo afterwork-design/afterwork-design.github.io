@@ -1,7 +1,8 @@
 import {LayoutPage} from "../typing";
-import {Box, Image, Text, HStack} from "@chakra-ui/react";
+import {Box, Image, Text, HStack, Link} from "@chakra-ui/react";
 import TopBox from "src/components/topBox";
 import {H1} from "src/components/primitives";
+import ProjectBox from "src/components/projectBox";
 
 const Home: LayoutPage = () => {
     return (
@@ -28,18 +29,19 @@ const Home: LayoutPage = () => {
                     top="15px"
                     right="15px"
                 >
-                    <a>
+                    <Link href="https://github.com/afterwork-design" target="_blank">
                         <Image
                             src="./github.png"
                         />
-                    </a>
-                    <a>
+                    </Link>
+                    <Link>
                         <Image
                             src="./member.png"
                         />
-                    </a>
+                    </Link>
                 </HStack>
             </TopBox>
+            <ProjectBox />
         </Box>
     );
 };
