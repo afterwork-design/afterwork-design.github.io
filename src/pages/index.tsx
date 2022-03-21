@@ -34,7 +34,7 @@ const Home: LayoutPage = () => {
                             src="./github.png"
                         />
                     </Link>
-                    <Link>
+                    <Link href="./member">
                         <Image
                             src="./member.png"
                         />

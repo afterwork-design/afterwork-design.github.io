@@ -1,0 +1,14 @@
+[
+    {
+        "name": "王鹏飞",
+        "tag": "程序员",
+        "site": "https://pengfeixc.com",
+        "avatar": "./images/members/wangpengfei.png"
+    },
+    {
+        "name": "唐维娟",
+        "tag": "设计",
+        "site": "https://tangweijuan.com",
+        "avatar": "./images/members/tangweijuan.png"
+    }
+]

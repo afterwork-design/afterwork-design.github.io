@@ -1,5 +1,6 @@
 import siteJson from "./site.json";
 import projectJson from "./project.json";
+import memberJson from "./member.json";
 
 export interface Site {
     title: string;
@@ -13,5 +14,13 @@ export interface Project {
     image: string;
 }
 
+export interface Member {
+    name: string;
+    tag: string;
+    site: string;
+    avatar: string;
+}
+
 export const site = siteJson as Site;
 export const projects = projectJson as Project[];
+export const members = memberJson as Member[];
