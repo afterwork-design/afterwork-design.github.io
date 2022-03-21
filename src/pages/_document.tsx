@@ -13,8 +13,7 @@ class MyDocument extends Document {
         return (
             <Html lang="zh-CN">
                 <Head>
-                    <link rel="icon" href="./castalia-s.png" />
-                    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet"></link>
+                    <link rel="icon" href="./logo.png" />
                 </Head>
                 <body>
                     <Main />

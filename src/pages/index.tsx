@@ -1,10 +1,45 @@
 import {LayoutPage} from "../typing";
-import {Box, HStack} from "@chakra-ui/react";
+import {Box, Image, Text, HStack} from "@chakra-ui/react";
+import TopBox from "src/components/topBox";
+import {H1} from "src/components/primitives";
 
 const Home: LayoutPage = () => {
     return (
         <Box>
-            After Work
+            <TopBox>
+                <Box
+                    display="flex"
+                    alignItems="center"
+                    justifyContent="center"
+                    flexDir="column"
+                    maxW="700px"
+                    margin="0 auto"
+                    minH="500px"
+                >
+                    <Image src="./logo.png"></Image>
+                    <H1 mt="15px">Afterwork Design</H1>
+                    <Text mt="40px">
+                        「Afterwork Design」是由两个常年在互联网上冲浪的年轻人组成的组织，因为我们对这个世界充满好奇，也乐于尝试不同的东西，所以我们希望在这里，
+                        为我们自己，也为大家，开发一些有趣又有用的东西。
+                    </Text>
+                </Box>
+                <HStack
+                    position="absolute"
+                    top="15px"
+                    right="15px"
+                >
+                    <a>
+                        <Image
+                            src="./github.png"
+                        />
+                    </a>
+                    <a>
+                        <Image
+                            src="./member.png"
+                        />
+                    </a>
+                </HStack>
+            </TopBox>
         </Box>
     );
 };
