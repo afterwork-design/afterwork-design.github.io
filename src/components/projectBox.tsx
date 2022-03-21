@@ -24,10 +24,14 @@ const ProjectBox = () => {
                             <Link
                                 cursor="pointer"
                                 href={project.url}
-                                bgColor="#009dff"
+                                bg="linear-gradient(to left, #30CFD0 0%, #31afbf 100%)"
                                 borderRadius="8px"
                                 color="white"
-                                p="8px 15px"
+                                p="8px 18px"
+                                fontSize="16px"
+                                _hover={{
+                                    bg: "linear-gradient(90deg, #ffa99f 0%, #ff929d 48%, rgba(255, 113, 154, 1) 100%)"
+                                }}
                             >
                                 点击体验
                             </Link>

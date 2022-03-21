@@ -16,7 +16,9 @@ const MemberBox = () => {
                         <Text fontSize="16px">{member.tag}</Text>
                         <Link
                             href={member.site}
-                            color="#ff7b9b"
+                            bg="linear-gradient(to left, #315891 0%, #330867 100%)"
+                            bgClip="text"
+                            fill="transparent"
                         >
                             {member.name}
                         </Link>

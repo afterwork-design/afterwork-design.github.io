@@ -18,7 +18,14 @@ const Home: LayoutPage = () => {
                     minH="500px"
                 >
                     <Image src="./logo.png"></Image>
-                    <H1 mt="15px">Afterwork Design</H1>
+                    <H1
+                        mt="15px"
+                        bg="linear-gradient(to left, #30CFD0 0%, #330867 100%)"
+                        bgClip="text"
+                        fill="transparent"
+                    >
+                        Afterwork Design
+                    </H1>
                     <Text mt="40px">
                         「Afterwork Design」是由两个常年在互联网上冲浪的年轻人组成的组织，因为我们对这个世界充满好奇，也乐于尝试不同的东西，所以我们希望在这里，
                         为我们自己，也为大家，开发一些有趣又有用的东西。
@@ -40,9 +47,9 @@ const Home: LayoutPage = () => {
                         />
                     </Link>
                 </HStack>
-            </TopBox>
-            <ProjectBox />
-        </Box>
+            </TopBox >
+    <ProjectBox />
+        </Box >
     );
 };
 

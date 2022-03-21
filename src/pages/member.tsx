@@ -22,7 +22,14 @@ const Home: LayoutPage = () => {
                     </Text>
                     <Text>
                         咨询请联系：
-                        <Link color="#009dff" href="mailto:weijuandesign@sina.com">weijuandesign@sina.com</Link>
+                        <Link
+                            href="mailto:weijuandesign@sina.com"
+                            bg="linear-gradient(to left, #315891 0%, #330867 100%)"
+                            bgClip="text"
+                            fill="transparent"
+                        >
+                            weijuandesign@sina.com
+                        </Link>
                     </Text>
                 </Box>
                 <Link href="/">
