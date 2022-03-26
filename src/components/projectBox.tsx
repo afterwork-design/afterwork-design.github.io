@@ -5,7 +5,9 @@ import {H2} from "./primitives";
 
 const ProjectBox = () => {
     return (
-        <Box>
+        <Box
+            p="0 10px"
+        >
             {
                 projects.map((project) => (
                     <Flex

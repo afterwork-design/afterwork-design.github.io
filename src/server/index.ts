@@ -19,6 +19,9 @@ export interface Member {
     tag: string;
     site: string;
     avatar: string;
+    cardBgColor: string;
+    nameColor: string;
+    cardShadow: string;
 }
 
 export const site = siteJson as Site;

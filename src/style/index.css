@@ -6,7 +6,7 @@
 }
 
 html,body {
-    --main-bg-color: #f8f8f8;
+    --main-bg-color: white;
     background-color: var(--main-bg-color) !important;
 }
 

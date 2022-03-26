@@ -48,7 +48,7 @@ const Home: LayoutPage = () => {
                     </Link>
                 </HStack>
             </TopBox >
-    <ProjectBox />
+            <ProjectBox />
         </Box >
     );
 };

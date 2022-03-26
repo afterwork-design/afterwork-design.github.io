@@ -3,12 +3,18 @@
         "name": "王鹏飞",
         "tag": "程序员",
         "site": "https://pengfeixc.com",
-        "avatar": "./images/members/wangpengfei.png"
+        "avatar": "./images/members/wangpengfei.png",
+        "cardBgColor": "#F2F9FF",
+        "nameColor": "#4C97D9",
+        "cardShadow": "1px 2px 4px rgba(76, 151, 217, 0.3)"
     },
     {
         "name": "唐维娟",
         "tag": "设计",
         "site": "https://tangweijuan.com",
-        "avatar": "./images/members/tangweijuan.png"
+        "avatar": "./images/members/tangweijuan.png",
+        "cardBgColor": "#FFF8F2",
+        "nameColor": "#B8875C",
+        "cardShadow": "1px 2px 4px rgba(184, 135, 92, 0.3)"
     }
 ]
