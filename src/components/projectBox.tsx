@@ -35,7 +35,7 @@ const ProjectBox = () => {
                                     bg: "linear-gradient(90deg, #ffa99f 0%, #ff929d 48%, rgba(255, 113, 154, 1) 100%)"
                                 }}
                             >
-                                点击体验
+                                立即使用
                             </Link>
                         </Box>
                     </Flex>
