@@ -6,7 +6,9 @@ import ProjectBox from "src/components/projectBox";
 
 const Home: LayoutPage = () => {
     return (
-        <Box>
+        <Box
+            mb="40px"
+        >
             <TopBox>
                 <Box
                     display="flex"
