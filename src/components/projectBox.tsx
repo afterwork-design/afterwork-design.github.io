@@ -1,12 +1,15 @@
 import React from "react";
 import {projects} from "src/server";
-import {Box, Flex, Image, Link, Text} from "@chakra-ui/react";
+import {Box, Flex, Image, Link, Text, VStack} from "@chakra-ui/react";
 import {H2} from "./primitives";
 
 const ProjectBox = () => {
     return (
-        <Box
+        <VStack
             p="0 10px"
+            alignItems="flex-start"
+            maxW="1300px"
+            margin="0 auto"
         >
             {
                 projects.map((project) => (
@@ -19,7 +22,11 @@ const ProjectBox = () => {
                         gap="40px"
                         flexWrap="wrap"
                     >
-                        <Image src={project.image} />
+                        <Image 
+                            src={project.image}
+                            flexShrink={1}
+                            width="550px"
+                        />
                         <Box>
                             <H2 fontSize="30px">{project.title}</H2>
                             <Text m="40px 0" fontSize="14px">{project.description}</Text>
@@ -41,7 +48,7 @@ const ProjectBox = () => {
                     </Flex>
                 ))
             }
-        </Box>
+        </VStack>
     )
 };
 
