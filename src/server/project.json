@@ -1,13 +1,13 @@
 [
     {
-        "title": "Castalia——不只是设计师的灵感源泉",
+        "title": "Castalia",
         "description": "Castalia 是一个资源导航网站，精选国内外优质网站，让每个人都能找到自己需要的资源",
         "image": "./images/projects/castalia.png",
         "url": "https://afterwork-design.github.io/castalia/"
     },
     {
-        "title": "KaKa 卡卡色板",
-        "description": "一个包含纯色与渐变的色板网站",
+        "title": "KaKa",
+        "description": "KaKa 是一个色板网站，包含纯色与渐变，所有颜色都是经过多次尝试调整出来的，可直接使用",
         "image": "./images/projects/kaka.png",
         "url": "https://afterwork-design.github.io/color-card/"
     }
