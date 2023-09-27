@@ -29,7 +29,7 @@ const Home: LayoutPage = () => {
                         Afterwork Design
                     </H1>
                     <Text mt="40px">
-                        「Afterwork Design」是由两个常年在互联网上冲浪的年轻人组成的组织，因为我们对这个世界充满好奇，也乐于尝试不同的东西，所以我们希望在这里，
+                        「Afterwork Design」是由两个年轻人组成的组织，因为我们对这个世界充满好奇，也乐于尝试不同的东西，所以我们希望在这里，
                         为我们自己，也为大家，开发一些有趣又有用的东西。
                     </Text>
                 </Box>
