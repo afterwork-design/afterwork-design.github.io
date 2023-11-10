@@ -7,7 +7,7 @@
     },
     {
         "title": "KaKa",
-        "description": "KaKa 是一个色板网站，包含纯色与渐变，所有颜色都是经过多次尝试调整出来的，可直接使用",
+        "description": "KaKa 是一个色板网站，包含纯色、渐变与阶梯色，所有颜色都是经过多次尝试调整出来的，可直接使用",
         "image": "./images/projects/kaka.png",
         "url": "https://afterwork-design.github.io/color-card/"
     }
