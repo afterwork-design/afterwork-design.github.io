@@ -1,4 +1,10 @@
 [
+        {
+        "title": "Notebook Grid",
+        "description": "Notebook Grid 是一个在线网格纸生成器，界面简洁高效",
+        "image": "./images/projects/notebook-grid.png",
+        "url": "https://gaming-diary-50542254.figma.site"
+    },
     {
         "title": "Castalia",
         "description": "Castalia 是一个资源导航网站，精选国内外优质网站，让每个人都能找到自己需要的资源",
