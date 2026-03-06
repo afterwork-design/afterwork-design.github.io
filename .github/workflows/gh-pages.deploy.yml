@@ -21,7 +21,8 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Install packages
-        run: npm ci
+        # peer conflict between eslint 8 and next@11; use legacy-peer-deps until deps are aligned
+        run: npm ci --legacy-peer-deps
       - name: Build project
         run: npm run build
       - name: Export static files
