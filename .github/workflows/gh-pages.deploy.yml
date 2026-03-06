@@ -10,7 +10,8 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x]
+        # use a modern Node release so npm understands our lockfile (v3)
+        node-version: [18.x]
 
     steps:
       - name: Get files
