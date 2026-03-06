@@ -19,7 +19,7 @@ const Home: LayoutPage = () => {
                     margin="0 auto"
                     minH="500px"
                 >
-                    <Image src="./logo.png"></Image>
+                    <Image src="./logo.svg"></Image>
                     <H1
                         mt="15px"
                         bg="linear-gradient(to left, #30CFD0 0%, #330867 100%)"
@@ -40,12 +40,12 @@ const Home: LayoutPage = () => {
                 >
                     <Link href="https://github.com/afterwork-design" target="_blank">
                         <Image
-                            src="./github.png"
+                            src="./github.svg"
                         />
                     </Link>
                     <Link href="./member">
                         <Image
-                            src="./member.png"
+                            src="./member.svg"
                         />
                     </Link>
                 </HStack>

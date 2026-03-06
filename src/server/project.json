@@ -1,5 +1,11 @@
 [
-        {
+    {
+        "title": "Convert Case",
+        "description": "Convert Case 是一个批量转换图层名称、文字内容格式的 Figma 插件，告别繁琐操作。支持大小写、驼峰、下划线等多种格式，满足不同需求。",
+        "image": "./images/projects/convert-case-thum.png",
+        "url": "https://www.figma.com/community/plugin/1586284053789069409"
+    },
+    {
         "title": "Notebook Grid",
         "description": "Notebook Grid 是一个在线网格纸生成器，界面简洁高效",
         "image": "./images/projects/notebook-grid.png",

@@ -14,7 +14,7 @@
         "design resources"
     ],
     "scripts": {
-        "dev": "next dev",
+        "dev": "NODE_OPTIONS=--openssl-legacy-provider next dev",
         "dev:debug": "node --inspect-brk=9300 ./node_modules/next/dist/bin/next -p 3100",
         "build": "next build",
         "export": "next export",
