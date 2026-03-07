@@ -24,10 +24,11 @@ const ProjectBox = () => {
                     >
                         <Image 
                             src={project.image}
-                            flexShrink={1}
                             width="550px"
+                            maxHeight="350px"
+                            objectFit="contain"
                         />
-                        <Box>
+                        <Box flex="1">
                             <H2 fontSize="30px">{project.title}</H2>
                             <Text m="40px 0" fontSize="14px">{project.description}</Text>
                             <Link
