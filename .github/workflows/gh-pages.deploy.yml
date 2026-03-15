@@ -10,8 +10,7 @@ jobs:
 
     strategy:
       matrix:
-        # use a modern Node release so npm understands our lockfile (v3)
-        node-version: [18.x]
+        node-version: [14.x]
 
     steps:
       - name: Get files
@@ -21,8 +20,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Install packages
-        # peer conflict between eslint 8 and next@11; use legacy-peer-deps until deps are aligned
-        run: npm ci --legacy-peer-deps
+        run: npm ci
       - name: Build project
         run: npm run build
       - name: Export static files
