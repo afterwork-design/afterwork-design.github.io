@@ -1,25 +1,31 @@
 [
     {
+        "title": "Pixicon",
+        "description": "Pixicon 是一款专注于像素创作的浏览器编辑器，适合绘制图标和各种小尺寸插画。",
+        "image": "./images/projects/pixicon.png",
+        "url": "https://tangweijuan.github.io/pixicon/"
+    },
+    {
         "title": "Convert Case",
         "description": "Convert Case 是一个批量转换图层名称、文字内容格式的 Figma 插件，告别繁琐操作。支持大小写、驼峰、下划线等多种格式，满足不同需求。",
-        "image": "./images/projects/convert-case-thum.png",
+        "image": "./images/projects/convert-case.png",
         "url": "https://www.figma.com/community/plugin/1586284053789069409"
     },
     {
         "title": "Notebook Grid",
-        "description": "Notebook Grid 是一个在线网格纸生成器，界面简洁高效",
+        "description": "Notebook Grid 是一个在线网格纸生成器，界面简洁高效。",
         "image": "./images/projects/notebook-grid.png",
-        "url": "https://gaming-diary-50542254.figma.site"
+        "url": "https://tangweijuan.github.io/notebook-grid/"
     },
     {
         "title": "Castalia",
-        "description": "Castalia 是一个资源导航网站，精选国内外优质网站，让每个人都能找到自己需要的资源",
+        "description": "Castalia 是一个资源导航网站，精选国内外优质网站，让每个人都能找到自己需要的资源。",
         "image": "./images/projects/castalia.png",
         "url": "https://afterwork-design.github.io/castalia/"
     },
     {
         "title": "KaKa",
-        "description": "KaKa 是一个色板网站，包含纯色、渐变与阶梯色，所有颜色都是经过多次尝试调整出来的，可直接使用",
+        "description": "KaKa 是一个色板网站，包含纯色、渐变与阶梯色，所有颜色都是经过多次尝试调整出来的，可直接使用。",
         "image": "./images/projects/kaka.png",
         "url": "https://afterwork-design.github.io/color-card/"
     }
