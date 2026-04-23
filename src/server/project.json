@@ -1,9 +1,9 @@
 [
     {
-        "title": "Pixicon",
-        "description": "Pixicon 是一款专注于像素创作的浏览器编辑器，适合绘制图标和各种小尺寸插画。",
-        "image": "./images/projects/pixicon.png",
-        "url": "https://tangweijuan.github.io/pixicon/"
+        "title": "Sugr素格",
+        "description": "Sugr素格是一款专注于像素创作的浏览器编辑器，适合绘制图标和各种小尺寸插画。",
+        "image": "./images/projects/sugr.png",
+        "url": "https://sugr.pages.dev/"
     },
     {
         "title": "Convert Case",
