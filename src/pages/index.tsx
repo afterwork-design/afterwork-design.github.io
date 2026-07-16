@@ -63,8 +63,7 @@ const Home: LayoutPage = () => {
                             lineHeight={{base: "1.9", md: "2"}}
                             color="ink.600"
                         >
-                            Afterwork Design 是由两个年轻人组成的组织，因为我们对这个世界充满好奇，
-                            也乐于尝试不同的东西，所以我们希望在这里，为我们自己，也为大家，开发一些有趣又有用的东西。
+                            产品设计师为了解决自己遇到的问题，而持续建造的数字工具集合
                         </Text>
                     </VStack>
                 </Container>
