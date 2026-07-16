@@ -1,7 +1,7 @@
 [
     {
-        "title": "Sugr素格",
-        "description": "Sugr素格是一款专注于像素创作的浏览器编辑器，适合绘制图标和各种小尺寸插画。",
+        "title": "Sugr 素格",
+        "description": "Sugr 素格是一款专注于像素创作的浏览器编辑器，适合绘制图标和各种小尺寸插画。支持 PWA 安装，移动端友好",
         "image": "./images/projects/sugr.png",
         "url": "https://sugr.pages.dev/"
     },
@@ -13,7 +13,7 @@
     },
     {
         "title": "Notebook Grid",
-        "description": "Notebook Grid 是一个在线网格纸生成器，界面简洁高效。",
+        "description": "Notebook Grid 是一个在线网格纸生成器，参数化生成，支持多种尺寸与网格。",
         "image": "./images/projects/notebook-grid.png",
         "url": "https://tangweijuan.github.io/notebook-grid/"
     },
