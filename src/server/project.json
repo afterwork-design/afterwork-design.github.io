@@ -1,7 +1,13 @@
 [
     {
+        "title": "Bulletbar",
+        "description": "Bulletbar 是 Obsidian 上的一个极简的任务管理工具栏，支持一键切换任务状态。",
+        "image": "./images/projects/bulletbar.jpg",
+        "url": "https://community.obsidian.md/plugins/bulletlist-toolbar"
+    },
+    {
         "title": "Sugr 素格",
-        "description": "Sugr 素格是一款专注于像素创作的浏览器编辑器，适合绘制图标和各种小尺寸插画。支持 PWA 安装，移动端友好",
+        "description": "Sugr 素格是一款专注于像素创作的浏览器编辑器，适合绘制图标和各种小尺寸插画。支持 PWA 安装，移动端友好。",
         "image": "./images/projects/sugr.png",
         "url": "https://sugr.pages.dev/"
     },
